@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+p {padding-left: 12px;}
+
+.box{box-sizing: border-box;
+     border: none;
+     padding-top: 25px;}
+
+.inline {display: inline-block;}
+
+.header{margin-bottom: 50px;}
+
+.stile {background-color: #4169E0}
+
+.rabota { font-size:50px; font-family:serif; color:white; text-align:left; letter-spacing:23px; font-weight:900; line-height:5px; text-shadow:-5px 5px 8px rgba(1,1,1,1.00)}
+
+/*.evro {font-size:30px; font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif; color:white; text-align:center; letter-spacing:10px; word-spacing:15px; font-weight:800; line-height:2px}*/
+
+.evro {font-size:50px; font-family:serif; color:white; text-align:center; letter-spacing:10px; word-spacing:10px; font-weight:800; line-height:20px; text-shadow:-4px 4px 6px rgba(1,1,1,1.00)}
+
+/*.est {font-size:50px; font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif; color:white; text-align:right; letter-spacing:10px; font-weight:900; line-height:2px}*/
+
+.est {font-size:50px; font-family:serif; color:white; text-align:right; letter-spacing:10px; font-weight:900; line-height:0px; text-shadow:-5px 5px 8px rgba(1,1,1,1.00)}
+
+.inspe {font-size:20px; font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif; color:grey; text-align:center; line-height:20px;}
+
+.menu {font-size:22px; font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif; color:grey; font-weight:800; line-height:0px; text-align:right}
+
+a:link {text-decoration:none; color: #C0C0C0;}
+a:visited {text-decoration:none; color: #C0C0C0}
+/* a[target="_blank"] {text-decoration:underline; color:black; font-weight:600; font-size:18px} */
+
+.rabot22 {font-size:40px; font-family:sans-serif; color:white; text-align:center;  font-weight:500; line-height:2px}
+hr {border:none; color:black; background-color:black; height:3px}
+
+.rab78 {font-size:15px; font-family:sans-serif; color:white; text-align:left;  font-weight:100; line-height:0px}
+
+.vakan {font-size:22px; font-family:sans-serif; color:#FF8C00; font-weight:400; text-align:center; line-height:2px;}
+
+table {border-spacing:10px, 0px }
+
+.okrug {font-size:18px; font-family:sans-serif; color:white; text-align:left;  font-weight:600; line-height:15px;}
+
+/*.imag {float:left; margin:0px 15px 15px 0px}*/
+
+.zdes {font-size:16px; color:white; padding-top:15px; font-family:sans-serif; font-weight:500}
+
+.osntext {font-size:17px}
+
+#cnt a img
+{
+opacity:0.3; 
+-moz-opacity:0.3;  
+filter:alpha(opacity=40);
+-khtml-opacity: 0.3;
+}
+
+#cnt a:hover img
+{
+opacity:1.0; -moz-opacity:1.0; filter:alpha(opacity=100);
+-khtml-opacity: 1; 
+}
+
+.vert{vertical-align: top;
+      padding-top: 10px;}
+
+.vnim{width: 78%;
+      font-size: 17px;
+      background-color: white;
+      display: inline-block;
+      margin-left: 242px;}
+
+a.ssil{color: black;
+       font-weight: bold;}
+
+strong.per {color: red;
+            font-size: 20px;}
+
+.one {text-align: justify;
+      padding: 0 7px 0 7px;}
+
+div.vnim p{margin: 6px;}
+
+div.vnim p:first-child {text-align: center;
+                        padding-top: 10px;}
+
+.dec {list-style-type: decimal;}
+
+div.vnim>p{line-height: 23px;}

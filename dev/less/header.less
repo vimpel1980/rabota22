@@ -1,0 +1,40 @@
+@import "_mixins";
+
+header{width: 100%;
+	     margin: 0 auto;
+       background-color: blue;
+       margin-bottom: 25px;}
+
+.img{width: 14%;
+	 padding: 50px 0 0 10px;
+	 .inline;
+	 & p{.fonts(20px, grey, normal, sans-serif);
+        text-align: center;
+        margin-top: 80px;};
+
+    @media screen and(max-width: 600px){
+    	width: 149px;
+    	}}
+
+.txt-head{.inline;
+	      width: 85%;
+	      padding-top: 20px;
+          & p{.fonts(50px, white, 900);
+          	   text-shadow:-5px 5px 8px rgba(1,1,1,1.00);
+          	   letter-spacing:10px;
+          	   padding-left: 100px;
+          	   margin: 0;
+          	   &:nth-child(2) {margin-left:180px;}
+          	   &:nth-child(3) {margin-left:800px;}
+
+          	}}
+
+ul{.inline;
+	padding-top: 40px;
+	width: 85%;
+	li{.inline;
+	   .fonts(22px, grey, 700, sans-serif);
+	    padding-left: 100px;}
+}
+a:link {text-decoration:none; color: #C0C0C0;}
+a:visited {text-decoration:none; color: #C0C0C0}
