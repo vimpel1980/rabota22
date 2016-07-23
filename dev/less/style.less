@@ -3,10 +3,16 @@
 @import "_mixins";
 @import "header";
 
-
 body{background-color: @back-col;}
 
 img{width: 100%;}
+
+hr{width: 100%;
+   height: 3px;
+   border: none;
+   color: black;
+   background-color: black;
+   margin-bottom: 35px;}
 
 .box{box-sizing: border-box;
      border: none;}
@@ -18,17 +24,15 @@ img{width: 100%;}
 .logo-busfor{width: 200px;
              margin: 0;}
 
-main{width: 85%;
-	   margin: 0 0 0 5px;
-	   .inline;
+main{width: 80%;
+	   margin-left: 10%;
+     margin-bottom: 20px;
+     .inline;
 	   &>div{width: 49%;
-           .inline;
-           p{.fonts(40px, white, normal, sans-serif);
-           	          padding: 10px 0 0 30px;
-           	          margin: 0 0 25px 0;
-           	          &:nth-child(2){padding-left: 190px;};
-           	          &:nth-child(3){padding-left: 400px;
-                                     margin-bottom: 35px;};
+                .inline;
+                p{.fonts(40px, white, normal, sans-serif);
+           	             padding: 10px 0 0 30px;
+           	             margin: 0 0 25px 0;
            	          &:nth-child(4){.fonts(15px, white,normal,sans-serif);
            	                          margin: 0;};
            	          &:nth-child(5){.fonts(15px,white,normal,sans);
@@ -37,21 +41,80 @@ main{width: 85%;
      &>div:last-child{.inline(middle);
      				   &>img{padding-left: 23px;};}
 
-     &>div:first-child{margin-bottom: 100px;};
+     &>div:first-child{margin-bottom: 100px;
+                       margin-right: 15px;};
      &>div:nth-child(2){margin-bottom: 100px;};
      }
-.opis-vakans{width: 100%;}
+#rabevro {padding-left: 190px;}
+#evro{padding-left: 400px;
+      margin-bottom: 35px;}
 
-.vakans{width: 28%;
+.opis-vakans, .inspe{width: 100%;
+                     margin-bottom: 35px;
+                     &>div:first-child{margin-left: 0;}}
+
+.vakans{width: 29.5%;
+        height: 320px;
 	      margin-left: 5%;
 	      text-align: center;
         background-color: white;
         .inline;
-        &>p{.fonts(22px,#FF8C00,normal,sans-serif);
-             margin-bottom: -37px;
-             &:first-child{text-transform: uppercase;};};}
+        &>p{
+             &:first-child{text-transform: uppercase;};
+             &:nth-child(3){padding-left: 10px;
+                            padding-right: 10px;};};}
+
+#orang{.fonts(22px,#FF8C00,normal,sans-serif);
+             margin-bottom: -37px;}
+
+.ins{text-align: justify;
+     padding: 0 13px 0 13px;
+     .fonts(17px,black,normal);
+     margin: 0 !important;}
 
 .img{width: 160px;}
 
+.img2{width: 307px;
+      height: 150px;
+      margin: 5px auto;}
+
+.obrat{height: 450px;}
+
+.text {text-align: justify;
+       padding-right: 10px;}
+
+#scrol {overflow: auto;}
+
 div.vakans p:last-child{.fonts(17px);
                         .inline;}
+
+.vnim{width: 98.3%;
+      font-size: 17px;
+      background-color: white;
+      }
+
+.one {text-align: justify;
+      padding: 0 7px 0 7px;}
+
+div.vnim p{margin: 6px;
+           .fonts(17px, black) !important}
+
+div.vnim p:first-child {text-align: center;
+                        padding-top: 10px;}
+
+.dec {list-style-type: decimal;}
+
+div.vnim>p{line-height: 23px;}
+
+ul.vakansii>li{text-align: justify;
+               padding-right: 20px;}
+
+strong.per {color: red;
+            font-size: 20px;}
+
+a.ssil{color: black;
+       font-weight: bold;}
+
+.wrap{width: 80%;
+      margin: 0 auto;
+      text-align: center;}
